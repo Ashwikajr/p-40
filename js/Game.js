@@ -59,7 +59,7 @@ class Game {
             // the name of the player on the basket. 
             if(index === player.index){
                 fill("red");
-                textize(25);
+                textSize(25);
                 text(allPlayers[plr].name, x-25,y+25);
             }
         }
